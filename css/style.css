@@ -129,8 +129,6 @@ body {
 .container {
 	padding: 1rem;
 	background-color: var(--white);
-	border-radius: .25rem;
-	margin: 1rem;
 }
 
 header {
@@ -174,6 +172,7 @@ main {
 section {
 	padding: 4rem;
 	border-radius: .25rem;
+	border: 1px solid var(--black);
 }
 
 .section-intro {
@@ -183,7 +182,6 @@ section {
 	gap: .75rem;
 	position: relative;
 	overflow: hidden;
-	border: 1px solid var(--black);
 }
 
 .section-intro i {
@@ -202,7 +200,7 @@ h1 span {
 	font-size: 1.25rem;
 }
 
-.section-intro svg {
+.section-intro img {
 	width: 200px;
 	position: absolute;
 	right: 4rem;
@@ -210,7 +208,6 @@ h1 span {
 
 .section-login {
 	background-color: var(--light-gray);
-	border: 1px solid var(--black);
 }
 
 .section-login i {
@@ -267,4 +264,10 @@ button, .btn-signup {
 .btn-signup {
 	background-color: var(--gold);
 	color: var(--black);
+}
+
+.section-game-of-month {
+	background-image: url("../media/img/cs2.webp");
+	background-position: center;
+	background-size: cover;
 }
