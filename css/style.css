@@ -258,6 +258,10 @@ body {
 	background-color: var(--white);
 }
 
+a {
+	color: blue;
+}
+
 header {
 	display: flex;
 	align-items: center;
@@ -421,6 +425,8 @@ button, .btn-signup {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  border-left: 1px solid var(--white);
+  border-right: 1px solid var(--white);
 }
 
 .section-how-it-works h2 {
@@ -477,4 +483,9 @@ button, .btn-signup {
 	justify-content: center;
 	font-weight: 500;
 	font-family: Poppins, sans-serif;
+}
+
+.step-copy-wrapper h3 {
+	margin-bottom: .5rem;
+	margin-top: 1.5rem;
 }
