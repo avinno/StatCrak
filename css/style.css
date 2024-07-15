@@ -487,5 +487,18 @@ button, .btn-signup {
 
 .step-copy-wrapper h3 {
 	margin-bottom: .5rem;
-	margin-top: 1.5rem;
+}
+
+.step-copy-wrapper a {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.step-copy-wrapper img {
+	max-width: 20px;
+}
+
+.step-card:nth-of-type(3) .step-copy-wrapper a img {
+	max-width: 16px;
 }
