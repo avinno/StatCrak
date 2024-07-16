@@ -259,7 +259,7 @@ body {
 }
 
 a {
-	color: blue;
+	color: #0000ff;
 }
 
 header {
@@ -281,6 +281,7 @@ header {
 	font-weight: 500;
 	display: flex;
 	align-items: center;
+	font-size: 18px;
 }
 
 .logo img {
@@ -325,11 +326,11 @@ section {
 }
 
 h1 {
-	font-size: 2.5rem;
+	font-size: 2.25rem;
 	color: var(--black);
 	display: flex;
 	flex-direction: column;
-	font-weight: bold;
+	font-weight: 700;
 }
 
 h1 span {
@@ -368,12 +369,12 @@ h1 span {
 }
 
 h2 {
-	font-size: 1rem;
+	font-size: 18px;
 	display: flex;
 	align-items: center;
 	border-bottom: 1px solid var(--black);
 	padding-bottom: .75rem;
-	font-weight: 500;
+	font-weight: 600;
 	margin-bottom: 2rem;
 }
 
@@ -460,6 +461,7 @@ button, .btn-signup {
 
 .step-card h3 {
 	line-height: 1.5rem;
+	font-weight: 500;
 }
 
 .curved-svg {
@@ -493,6 +495,7 @@ button, .btn-signup {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+	font-size: 15px;
 }
 
 .step-copy-wrapper img {
@@ -501,4 +504,8 @@ button, .btn-signup {
 
 .step-card:nth-of-type(3) .step-copy-wrapper a img {
 	max-width: 16px;
+}
+
+footer p {
+	text-align: center;
 }
