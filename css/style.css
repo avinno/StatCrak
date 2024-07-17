@@ -339,8 +339,8 @@ nav hr {
   margin: 0 1rem;
 }
 
-nav img {
-	width: 135px;
+.nav-svg {
+	width: 140px;
 	position: absolute;
 	left: 1rem;
 	bottom: 1rem;
@@ -354,6 +354,23 @@ nav ul {
 
 nav a {
 	color: var(--white);
+	display: flex;
+	align-items: center;
+	gap: .5rem;
+	justify-content: end;
+}
+
+.nav-list li:first-of-type a {
+	color: var(--gold);
+	font-weight: 400;
+}
+
+.nav-icon-svg {
+	width: 18px;
+}
+
+.nav-icon-svg-2 {
+	height: 18px;
 }
 
 main {
@@ -523,6 +540,7 @@ button, .btn-signup {
 	position: absolute;
 	bottom: 0;
 	left: 0;
+	max-width: 100%;
 }
 
 .section-how-it-works .btn {

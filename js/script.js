@@ -1,3 +1,4 @@
+// Navigation functionality
 let menuBarsIcon = document.querySelector("#menu-icon");
 let xMarkIcon = document.querySelector("#x-nav-icon");
 let nav = document.querySelector("#nav");
