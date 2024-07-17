@@ -264,11 +264,20 @@ a {
 
 header {
 	display: flex;
-	align-items: center;
+	align-items: flex-end;
 	justify-content: space-between;
 	background-color: var(--black);
 	border-radius: .25rem;
 	border: 1px solid var(--black);
+	flex-direction: column;
+}
+
+.header-container {
+	display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .logo {
@@ -289,7 +298,7 @@ header {
 	width: 20px;
 }
 
-nav a {
+.menu-icon {
 	border: 2px solid var(--black);
   background-color: var(--black);
   border-radius: .25rem;
@@ -297,10 +306,54 @@ nav a {
   display: flex;
   align-items: center;
   padding: .25rem 1rem;
+  color: #fff;
+}
+
+.menu-icon img {
+	width: 18px;
+}
+
+#x-nav-icon {
+	display: none;
+}
+
+#nav {
+	display: none;
+}
+
+nav {
+	padding: 1rem;
+	position: relative;
+	width: 100%;
+	display: flex;
+  justify-content: flex-end;
+}
+
+nav hr {
+	position: absolute;
+  top: 0;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  border-color: var(--white);
+  margin: 0 1rem;
 }
 
 nav img {
-	width: 18px;
+	width: 135px;
+	position: absolute;
+	left: 1rem;
+	bottom: 1rem;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+nav a {
+	color: var(--white);
 }
 
 main {
