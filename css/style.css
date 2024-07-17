@@ -335,8 +335,10 @@ nav hr {
   margin: 0 auto;
   left: 0;
   right: 0;
-  border-color: var(--white);
   margin: 0 1rem;
+  border: none;
+  height: 1px;
+  background-color: var(--white);
 }
 
 .nav-svg {
@@ -370,7 +372,7 @@ nav a {
 }
 
 .nav-icon-svg-2 {
-	height: 18px;
+	height: 16px;
 }
 
 main {
