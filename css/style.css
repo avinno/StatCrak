@@ -480,7 +480,7 @@ input {
 	font-size: 14px;
 }
 
-button, .btn-signup {
+.login-btn, .btn-signup {
 	padding: .5rem 1.25rem;
 	background-color: #000;
 	color: #fff;
@@ -602,11 +602,20 @@ button, .btn-signup {
 }
 
 .step-copy-wrapper span {
-	display: inline;
+	display: flex;
 }
 
-.step-copy-wrapper a {
+.step-link {
 	font-size: 15px;
+	text-decoration: underline;
+	color: #0000ff;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	background-color: transparent;
+	border: none;
+	flex-grow: 1;
+	padding: 0;
 }
 
 .step-copy-wrapper img {
@@ -614,7 +623,7 @@ button, .btn-signup {
 	vertical-align: middle;
 }
 
-.step-card:nth-of-type(3) .step-copy-wrapper a img {
+.step-card:nth-of-type(3) .step-copy-wrapper .step-link img {
 	max-width: 16px;
 }
 
