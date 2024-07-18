@@ -355,7 +355,7 @@ nav hr {
 }
 
 .nav-svg {
-	width: 200px;
+	width: 175px;
 	position: absolute;
 	left: 1rem;
 	bottom: 1rem;
@@ -364,7 +364,8 @@ nav hr {
 nav ul {
 	display: flex;
 	flex-direction: column;
-	gap: 1rem;
+	gap: 1.25rem;
+	margin: .5rem 0;
 }
 
 nav a {
@@ -545,7 +546,7 @@ input {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	gap: .5rem;
+	gap: 1rem;
 	min-height: 200px;
 	position: relative;
 }
