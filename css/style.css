@@ -268,6 +268,7 @@ body {
 
 p {
 	line-height: 1.5rem;
+	font-weight: 400;
 }
 
 a {
@@ -606,7 +607,6 @@ input {
 }
 
 .step-link {
-	font-size: 15px;
 	text-decoration: underline;
 	color: #0000ff;
 	cursor: pointer;
@@ -614,8 +614,12 @@ input {
 	align-items: center;
 	background-color: transparent;
 	border: none;
-	flex-grow: 1;
 	padding: 0;
+	font-family: Poppins, sans-serif;
+	font-size: 15px;
+	justify-content: flex-start;
+  align-self: flex-start;
+  white-space: nowrap;
 }
 
 .step-copy-wrapper img {
